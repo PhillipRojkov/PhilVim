@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+
+# NAVIGATION
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias cdp="cd ~/Documents/Projects"
+alias cdo="cd ~/Documents"
+alias cdd="cd ~/Downloads"
+alias cde="cd ~/Desktop"
+alias cdh="cd ~"
+alias cdr="cd /"
+
+# VIEW THINGS
+alias l="ls"
+alias ll="ls -alh"
+alias ldir="ls -al | grep ^d"
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+
+# COMMON
+alias o="open ."
+alias c="clear"
+alias h="history"
+alias j="jobs -l"
+alias path='echo -e ${PATH//:/\\n}'
